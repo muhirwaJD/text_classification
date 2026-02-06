@@ -1,0 +1,4 @@
+model,accuracy,precision,recall,f1_score
+RNN with Word2Vec Skip-gram,0.6347,0.537,0.6347,0.5719
+RNN with Word2Vec CBOW,0.5912,0.5529,0.5912,0.476
+RNN with FastText,0.6009,0.5825,0.6009,0.5063
