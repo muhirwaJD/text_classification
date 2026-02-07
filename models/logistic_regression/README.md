@@ -228,30 +228,8 @@ Different Word2Vec-based embeddings show varying performance:
 ```bash
 # Solution: Reduce vector_size or use a smaller training corpus
 # Increase min_count to reduce vocabulary size
-```
 
-**Issue**: Slow GridSearchCV
-```bash
-# Solution: Reduce parameter grid or use RandomizedSearchCV
-# Decrease cv folds to 3 (already implemented)
-```
 
-## Contributing to Report
 
-### Section Contributions
-For the group report, this module provides:
-1. **Methodology section**: Traditional ML approach with embeddings
-2. **Results tables**: Complete performance metrics (Table 1, Table 2)
-3. **Visualizations**: 6+ publication-quality figures
-4. **Discussion points**: Embedding-model synergy analysis
 
-### Integration with Team Results
-Compare with:
-- LSTM results (from lstm/ folder)
-- RNN results (from rnn/ folder)
-- Other team member implementations
 
----
-
-**Last Updated**: February 6, 2026  
-**Status**: Complete - Ready for Execution and Report Integration
